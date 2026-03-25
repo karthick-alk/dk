@@ -1,9 +1,1 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>My first PHP</h1>
-<?php
-echo "Hello world!";
-?>
-</body>
-</html>
+welcome back peter parker
