@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>PHP login system</tiltle>
+<linkrel="style sheet"type="text/css"href="style.css">
+</head>
+<body>
+<div id="frm">
+<h1>login</h1
+<form name="f1"action="authentication.php" on submit="return validation"method='POST">
+<p>
+<label> UserName:</lable>
+<inputtype="text"id="User"name="User"/>
+</p>
+<p>
+<label>password:</label>
+<inputtype="password"id="pass"name="pass/>
+</p>
+<p>
+</form>
+</div>
+<script>
+function validation()
+{
+var id=docuement.f1 user value;
+va ps=docuement.f1 pass value;
+if(id.length==""&&ps.length=="")
+{ alert("Username and password fields are empty");
+return false;
+}
+else\
+{
+if(id.length=="")
+{alert("Username is empty");
+return false;
+}
+if(ps.length=="")
+{alert("password field is empty");
+return false;
+}
+}
+}
+</script>
+</body>
+</html>
+																																																																																																																																			
